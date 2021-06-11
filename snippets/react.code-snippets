@@ -1,0 +1,111 @@
+{
+  "Basic Custom Hook": {
+    "body": [
+      "import { useState } from 'react';",
+      "",
+      "export const use${0:ComponentLogic }= (props) => {",
+      "\tconst [${1:state}, ${2:setState}] = useState(props)",
+      "",
+      "\treturn { ${1:state} }",
+      "}",
+      ""
+    ],
+    "description": "Creates a basic hook file",
+    "prefix": "ucl",
+    "scope": "javascript,typescript"
+  },
+  "React Arrow Function Component with Export": {
+    "body": [
+      "import React from 'react'",
+      "",
+      "export const ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} = () => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}",
+      ""
+    ],
+    "description": "Creates a React Arrow Function Component with ES7 module system",
+    "prefix": "rafce",
+    "scope": "javascript,typescript"
+  },
+  "React Test Renderer Simple": {
+    "body": [
+      "import React from \"react\";",
+      "import { create } from \"react-test-renderer\";",
+      "import ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} from '../';",
+      "",
+      "const mockedComponent = props => create(<${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} {...props} />);",
+      "",
+      "describe(\"${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}\", () => {",
+      "  test(\"renders component\", () => {",
+      "    const component = mockedComponent();",
+      "",
+      "    expect(component).toMatchSnapshot();",
+      "  });",
+      "});",
+      ""
+    ],
+    "description": "Creates a simple test for react-test-renderer",
+    "prefix": "rtrs",
+    "scope": "javascript,typescript"
+  },
+  "React Testing Library Simple": {
+    "body": [
+      "import React from 'react';",
+      "import { render, cleanup } from '@testing-library/react';",
+      "import '@testing-library/jest-dom/extend-expect';",
+      "import ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} from './';",
+      "",
+      "afterEach(cleanup);",
+      "test('should take a snapshot', () => {",
+      "\tconst { asFragment } = render(<${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} />);",
+      "",
+      "\texpect(asFragment()).toMatchSnapshot();",
+      "});",
+      ""
+    ],
+    "description": "Creates a simple test for @testing-library/react",
+    "prefix": "rtls",
+    "scope": "javascript,typescript"
+  },
+  "Styled Component Simple": {
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "export const ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}} = styled.${2:div}`",
+      "\t",
+      "`",
+      ""
+    ],
+    "description": "Creates a basic styled-component file",
+    "prefix": "stc",
+    "scope": "javascript,typescript"
+  },
+  "Typescript Arrow Function Component with Export": {
+    "body": [
+      "import React, { FC } from 'react'",
+      "",
+      "type ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}Props = {",
+      "",
+      "}",
+      "export const ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}: FC<${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}Props> = () => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.+\\/(.*)$/$1/}}",
+      ""
+    ],
+    "description": "Creates a React Arrow Function Component with Typescript",
+    "prefix": "rafcets",
+    "scope": "typescript"
+  }
+}
