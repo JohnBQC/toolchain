@@ -37,8 +37,14 @@
 
 - [**Rectangle**][rect]: Window/Screen management
 
+## Resources
+
+- [**Command Line Power User**][clpu]
+- [**ShortCuts**][shortcuts]
+
   [alpha]: https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter
   [brackets]: https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
+  [clpu]: https://commandlinepoweruser.com/
   [colors]: https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight
   [eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
   [fira-code]: https://github.com/tonsky/FiraCode
@@ -48,4 +54,5 @@
   [prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
   [rect]: https://rectangleapp.com/
   [sakura]: https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Sakura.itermcolors
+  [shortcuts]: https://shortcuts.design/
   [synth-gist]: https://gist.github.com/sbinlondon/fad23be09f56a4b6ab0d990d3841f7de
