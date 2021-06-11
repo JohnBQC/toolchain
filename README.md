@@ -7,7 +7,7 @@
   - **Theme**: [Synthwave '84/Synthwave + Fluoromachine][synth-gist]
   - **Notable Extensions**:
     - [**Alphabetical Sorter**][alpha]: sort highlighted area with `⌘+⇧+A`
-    - [**Color Highlight**][colors]: highlights text that is recognized as a color with a background color and its calculated accessible text color; i.e. <span style="background: #000fee; color: rgb(255,255,255);">#000fee</span> or <span style="background: #c8c8c8; color: rgb(0,0,0);">#c8c8c8</span>
+    - [**Color Highlight**][colors]: highlights text that is recognized as a color with a background color and its calculated accessible text color; i.e. <p style="display:inline-block; background: #000fee; color: rgb(255,255,255);">#000fee</p> or <p style="display:inline-block; background: #c8c8c8; color: rgb(0,0,0);">#c8c8c8</p>
     - [**ESLint**][eslint]: configurable JS linter
     - [**GitLens**][git-lens]: adds enhanced git features like line-by-line blame
     - [**Import Cost**][import]: lists import/require cost of external dependency
