@@ -20,13 +20,18 @@
   - **Plugins**:
     - alias-tips - community
     - brew
+    - codeclimate
+    - extract
     - git
     - node
     - npm
     - npx
     - osx
+    - rails
+    - ruby
     - web-search
     - yarn
+    - zsh-autosuggestions - community
 
 ## Desktop Apps
 
