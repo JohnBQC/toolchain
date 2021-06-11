@@ -8,6 +8,7 @@
   - **Notable Extensions**:
     - [**Alphabetical Sorter**][alpha]: sort highlighted area with `⌘+⇧+A`
     - [**Color Highlight**][colors]: highlights text that is recognized as a color with a background color and its calculated accessible text color; i.e. <span style="background: #000fee; color: rgb(255,255,255);">#000fee</span> or <span style="background: #c8c8c8; color: rgb(0,0,0);">#c8c8c8</span>
+    - [**Color Tabs**][color-tabs]: Sets background colors to parts (title bar/side bar) of the vs code ui 
     - [**ESLint**][eslint]: configurable JS linter
     - [**GitLens**][git-lens]: adds enhanced git features like line-by-line blame
     - [**Import Cost**][import]: lists import/require cost of external dependency
@@ -45,6 +46,7 @@
   [alpha]: https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter
   [brackets]: https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
   [clpu]: https://commandlinepoweruser.com/
+  [color-tabs]: https://marketplace.visualstudio.com/items?itemName=orepor.color-tabs-vscode-ext
   [colors]: https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight
   [eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
   [fira-code]: https://github.com/tonsky/FiraCode
