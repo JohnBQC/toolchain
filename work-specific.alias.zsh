@@ -11,4 +11,4 @@ alias scrum="work && open 'https://us02web.zoom.us/j/5394852076?pwd=bWF5VWdCQWNp
 alias rs='rails server'
 
 # starts redis in daemon
-alias redis='/Users/jblackwell/Documents/code/redis-6.0.9/src/redis-server --daemonize yes'
+alias redis='~/Documents/code/redis-6.0.9/src/redis-server --daemonize yes'

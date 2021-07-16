@@ -35,15 +35,19 @@ alias pwd-copy='pwd | pbcopy'
 # re-sources zshrc
 alias refresh='source ~/.zshrc'
 
+# git aliases
+alias grhard='git reset --hard HEAD'
+alias grsoft='git reset --soft HEAD~1'
+
 # yarn aliases
 alias yf='yarn format'
 alias ync='yarn new-component'
-alias ys='yarn start'
 alias ys-p='yarn start:playground'
 alias ys-s='yarn start:styleguidist'
 alias ys-w='yarn start:watch'
-alias yt='yarn test'
+alias ys='yarn start'
 alias yt-w='yarn test:watch'
+alias yt='yarn test'
 alias yv='yarn validate'
 alias yys='yarn && yarn start'
 
